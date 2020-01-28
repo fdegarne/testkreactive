@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Boxotop</string>
+
+    <string name="release_label">Release date :</string>
+    <string name="language_label">Language :</string>
+    <string name="audience_label">Audience :</string>
+    <string name="my_review_label">My Review</string>
+    <string name="synopsis_label">Synopsis</string>
+    <string name="casting_label">Casting</string>
+    <string name="production_label">Production</string>
+    <string name="direction_label">Director</string>
+    <string name="writer_label">Writers</string>
+    <string name="runtime_label">Runtime :</string>
+</resources>

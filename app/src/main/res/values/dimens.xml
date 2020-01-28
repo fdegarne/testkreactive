@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adapter_size">100dp</dimen>
+    <dimen name="preview_size">84dp</dimen>
+    <dimen name="image_detail_height">150dp</dimen>
+
+    <dimen name="padding_adapter">8dp</dimen>
+    <dimen name="padding_movie_text">5dp</dimen>
+    <dimen name="padding_movie_detail">10dp</dimen>
+
+    <dimen name="title_size_normal">17sp</dimen>
+    <dimen name="title_size_big">60sp</dimen>
+    <dimen name="desc_size">13sp</dimen>
+</resources>

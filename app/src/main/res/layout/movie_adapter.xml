@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data class="MovieBinding">
+        <variable
+            name="movieModel"
+            type="com.fabiendegarne.boxotop.ui.viewmodels.MovieViewModel" />
+    </data>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/adapter_size"
+        android:padding="@dimen/padding_adapter">
+        <ImageView
+            android:layout_width="@dimen/preview_size"
+            android:layout_height="@dimen/preview_size"
+            android:layout_gravity="center_vertical"
+            app:imageUrl="@{movieModel.image}"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_movie_text">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:lines="2"
+                android:textStyle="bold"
+                android:textSize="@dimen/title_size_normal"
+                android:text="@{movieModel.title}"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/desc_size"
+                android:text="@{Integer.toString(movieModel.year)}"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
